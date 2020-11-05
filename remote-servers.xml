@@ -1,15 +1,5 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="DockerOSX" type="docker">
-      <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
-      </configuration>
-    </remote-server>
-    <remote-server name="Docker" type="docker">
-      <configuration>
-        <option name="apiUrl" value="tcp://localhost:2375" />
-      </configuration>
-    </remote-server>
     <remote-server name="DockerWin" type="docker">
       <configuration>
         <option name="apiUrl" value="npipe:////./pipe/docker_engine" />
